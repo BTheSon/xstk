@@ -37,7 +37,7 @@
 5. Phân tích kết quả mô hình (hệ số hồi quy, $R^2$, kiểm định t)
 6. Minh họa kết quả bằng đồ thị (scatter plot, đường hồi quy)
 7. Thảo luận kết quả
-e
+
 ---
 
 ### **4. Kết luận**
