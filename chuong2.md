@@ -26,7 +26,7 @@ trong đó:
 
 (Nguồn dữ liệu: Mô phỏng bằng Python, xem chi tiết ở Phụ lục A)
 
----
+
 
 ## 2.2 Tiền xử lý dữ liệu
 
@@ -36,7 +36,7 @@ Dữ liệu được kiểm tra qua các bước:
 2. **Ngoại lai (Outliers):** Xác định bằng phương pháp IQR. Không có giá trị nào vượt ngưỡng $ Q_1 - 1.5 \times IQR $ hoặc $ Q_3 + 1.5 \times IQR $.
 3. **Đồng nhất đơn vị đo:** Cả hai biến đều ở đơn vị gốc, không cần chuẩn hóa.
 
----
+
 
 ## 2.3 Phân tích tương quan
 
@@ -66,7 +66,6 @@ $$ t = \frac{r\sqrt{n-2}}{\sqrt{1-r^2}} = 4.5733, \quad df = 28 $$
 p-value = $ 8.90 \times 10^{-5} $ < 0.05  
 → Bác bỏ $ H_0 $, chấp nhận $ H_1 $: có mối tương quan tuyến tính dương có ý nghĩa thống kê.
 
----
 
 ## 2.4 Xây dựng mô hình hồi quy tuyến tính đơn
 
@@ -91,7 +90,6 @@ $$ \hat{Y} = -60.3382 + 0.5094 X $$
 | $ b_0 $ | -60.3382  | 14.302       | -4.218 | 0.0002  |
 | $ b_1 $ | 0.5094    | 0.1114       | 4.573  | 0.00009 |
 
----
 
 ## 2.5 Độ phù hợp mô hình
 
@@ -100,7 +98,6 @@ $$ R^2 = \frac{SSR}{SST} = r^2 = 0.4276 $$
 
 Ý nghĩa: 42.76% biến thiên của cân nặng được giải thích bởi chiều cao, phần còn lại do yếu tố khác.
 
----
 
 ## 2.6 Minh họa kết quả
 
@@ -108,7 +105,6 @@ $$ R^2 = \frac{SSR}{SST} = r^2 = 0.4276 $$
 
 (Chèn hình `ch02_regression.png`)
 
----
 
 ## 2.7 Thảo luận
 
@@ -116,7 +112,7 @@ $$ R^2 = \frac{SSR}{SST} = r^2 = 0.4276 $$
 2. **Giới hạn:** $ R^2 $ chưa cao, mô hình chưa tính đến nhiều yếu tố quan trọng khác.
 3. **Hướng mở rộng:** Dùng hồi quy đa biến, thêm các biến như độ tuổi, giới tính, chế độ ăn uống.
 
----
+
 
 ## 2.8 Kết luận chương
 
